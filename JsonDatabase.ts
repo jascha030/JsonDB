@@ -1,4 +1,4 @@
-const fs = require('fs');
+const fs = (window as any).require('fs');
 
 /**
  * JSON Database class
